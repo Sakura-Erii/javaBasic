@@ -1,4 +1,4 @@
-package com.neuedu.a;
+package com.neuedu.$5_26;
 
 public class JiShuHeOuShuHe {
     //计算1-100间的奇数和偶数和

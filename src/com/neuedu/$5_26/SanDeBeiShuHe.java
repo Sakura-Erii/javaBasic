@@ -1,4 +1,4 @@
-package com.neuedu.a;
+package com.neuedu.$5_26;
 
 public class SanDeBeiShuHe {
     //用while循环，计算计算1-200之间所有3的倍数的和

@@ -1,4 +1,4 @@
-package com.neuedu.a;
+package com.neuedu.$5_26;
 
 public class HomeWork1 {
     public static void main(String[] args) {

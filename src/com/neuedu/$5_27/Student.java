@@ -1,4 +1,4 @@
-package com.neuedu.b;
+package com.neuedu.$5_27;
 
 public class Student {
     //定义一个学生类 包括 姓名 年龄 分数的特征

@@ -1,4 +1,4 @@
-package com.neuedu.b;
+package com.neuedu.$5_27;
 
 public class Yuan {
 //    定义圆类，它有一个变量radius(半径)。从键盘输入数据，将半径传递给radius，编程计算并输出圆的周长和面积（确保输入的数据不为负数）。
@@ -13,5 +13,5 @@ public class Yuan {
         }
         System.out.println("圆的周长为："+(2*c*radius));
         System.out.println("圆的面积为："+(c*radius*radius));
-    }
-}
+        }
+        }

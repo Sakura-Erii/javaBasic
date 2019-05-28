@@ -1,4 +1,4 @@
-package com.neuedu.a;
+package com.neuedu.$5_26;
 
 public class JieChen {
     //9的阶乘

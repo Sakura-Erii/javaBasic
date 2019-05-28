@@ -1,4 +1,4 @@
-package com.neuedu.b;
+package com.neuedu.$5_27;
 
 public class Car {
     //编写一个Java程序，并满足如下要求：
