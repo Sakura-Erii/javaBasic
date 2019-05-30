@@ -8,9 +8,9 @@ public class Person {
     //4.2定义一个PersonCreate类：
     //4.2.1创建两个对象，分别是zhangsan，33岁，1.73；
     //lishi，44，1.74 5.2.2分别调用对象的sayHello()方法。
-    public  String  name;
-    public  int  height;
-    public  String  weight;
+    public String name;
+    public int height;
+    public String weight;
 
     public String getName() {
         return name;
@@ -36,7 +36,7 @@ public class Person {
         this.weight = weight;
     }
 
-    public void sayHello(){
+    public void sayHello() {
         System.out.println("hello,my name is XXX");
     }
 }

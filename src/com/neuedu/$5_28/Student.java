@@ -4,9 +4,9 @@ public class Student {
     //1 有五个学生，每个学生有3门课的成绩，从键盘输入以上数据（包括学生号，姓名，三门课成绩），计算出平均成绩
     private String  sname;
     private int  sno;
-    private int  sachievement1;
-    private int  sachievement2;
-    private int  sachievement3;
+    private int sachievement1;
+    private int sachievement2;
+    private int sachievement3;
 
     public String getSname() {
         return sname;

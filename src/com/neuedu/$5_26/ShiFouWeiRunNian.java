@@ -8,12 +8,12 @@ public class ShiFouWeiRunNian {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入年份");
         int a = input.nextInt();
-        if (a<=0) {
+        if (a <= 0) {
             System.out.println("请输入正确年份");
-        }else if (a % 4 == 0&&a%100!=0||a%400==0) {
-                System.out.println(a + "年，是润年");
-            } else {
-                System.out.println(a + "年，不是闰年，是平年");
-            }
+        } else if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) {
+            System.out.println(a + "年，是润年");
+        } else {
+            System.out.println(a + "年，不是闰年，是平年");
         }
     }
+}

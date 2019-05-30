@@ -1,11 +1,11 @@
 package com.neuedu.$5_28;
 
 public class Woker {
-    private String  name;
-    private String  sex;
+    private String name;
+    private String sex;
     private String date;
     private int num;
-    private float   salary;
+    private float salary;
 
     public int getNum() {
         return num;
@@ -46,7 +46,8 @@ public class Woker {
     public void setDate(String date) {
         this.date = date;
     }
-    public void computeSalay(){
-        System.out.println(num*salary);
+
+    public void computeSalay() {
+        System.out.println(num * salary);
     }
 }

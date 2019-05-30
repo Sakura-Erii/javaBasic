@@ -6,10 +6,11 @@ public class Monkey {
     //(2)People类是Monkey类的子类，在People类中重写方法speak(),在speak方法中输出“小样的，不错嘛！会说话了！”的信息。
     //(3)在People类中新增方法void think()，在think方法中输出“别说话！认真思考！”的信息。
     //(4)在主类E的main方法中创建Monkey与People类的对象类测试这2个类的功能。
-    public Monkey (String s){
+    public Monkey(String s) {
 
     }
-    public void speak(){
+
+    public void speak() {
         System.out.println("咿咿呀呀......");
     }
 }

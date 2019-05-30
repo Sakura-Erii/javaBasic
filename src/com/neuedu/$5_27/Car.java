@@ -6,20 +6,24 @@ public class Car {
     //功能：驾驶（void drive( )）    功能：变速（void speedChange(int newSpeed)），把新速度赋给speed
     //3）定义主类E，在其main方法中创建Car类的两个对象：aodi和benchi的对 象并测试其对象的特性
     int speed;
-    public void car(){
-        String  mark;
+
+    public void car() {
+        String mark;
         int price;
     }
-    public void driver(){
+
+    public void driver() {
         System.out.println("自动驾驶");
         System.out.println("手动驾驶");
     }
-    public void speedChange(int newSpeed){
-        speed=newSpeed;
-        System.out.println("提速后："+newSpeed);
+
+    public void speedChange(int newSpeed) {
+        speed = newSpeed;
+        System.out.println("提速后：" + newSpeed);
     }
-    public void emmm(String mark,int    price){
-        System.out.println("品牌："+mark);
-        System.out.println("价格："+price);
+
+    public void emmm(String mark, int price) {
+        System.out.println("品牌：" + mark);
+        System.out.println("价格：" + price);
     }
 }

@@ -6,23 +6,26 @@ public class Point {
     //创建两个Point对象p1、p2，分别调用movePoint方法后，打印p1和p2的坐标
     public int x;
     public int y;
+
     //构造器1
-    public Point(){
+    public Point() {
 
     }
+
     //构造器2
-    public Point(int x0,int y0){
-        x=x0;
-        y=y0;
+    public Point(int x0, int y0) {
+        x = x0;
+        y = y0;
     }
+
     //定义方法
-    public void movePoint(int dx,int dy){
-        x+=dx;
-        y+=dy;
+    public void movePoint(int dx, int dy) {
+        x += dx;
+        y += dy;
     }
 
     @Override
     public String toString() {
-        return "("+x+","+y+  "(";
+        return "(" + x + "," + y + "(";
     }
 }
